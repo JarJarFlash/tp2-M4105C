@@ -2,26 +2,27 @@
 <html lang="fr">
 
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>La Dudus !</title>
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">La Renault Modus</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="search">
+        <div class="header">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <span class="nav">
+                <a href="#">Accueil</a>
+                <a href="#">La Renault Modus</a>
+                <a href="#">Contact</a>
+            </span>
+            <span>
                 <input type="text" name="serachbar">
                 <input type="button" value="Search">
-            </div>
-        </nav>
+            </span>
+        </div>
     </header>
     <img src="img/banner.jpg" alt="" class="banner">
     <section>
@@ -29,6 +30,10 @@
             <h1>La Renault Modus</h1>
             <p>Le Renault Modus est une automobile du groupe Renault sortie en septembre 2004, conçue au Technocentre Renault. Il s'agit d'un minispace de même longueur que la Clio II, mais en réalité construit sur la plateforme de la Clio III, sortie 6
                 mois plus tard.</p>
+            <p>Ayant la même longueur que la Clio II, le Modus reste une citadine mais, du fait de sa hauteur et de la position de conduite, présente une meilleure habitabilité et une meilleure visibilité. Ces caractéristiques justifient son appellation
+                de petit monospace (ou minispace). Sur certaines versions, le siège arrière est entièrement modulable et peut être avancé/reculé, les dossiers abaissés ou complètement repliés. En septembre 2004, Renault espérait vendre 250 000 à 300 000
+                Modus par an, mais n'en a vendu que 400 000 exemplaires en trois ans. Louis Schweitzer déclare dès 2004 que Renault a surestimé le marché des minispaces. Les journaux spécialisés mentionnent aussi la finition, moins bonne que celle de
+                la Clio III, ainsi que des tarifs relativement élevés, imposés par les tests de sécurité.</p>
             <div class="photos">
                 <div class="photo1">
                     <img src="img/photo1.jpg" alt="">
@@ -41,22 +46,20 @@
                     <p class="legend"></p>
                 </div>
                 <div class="photo3">
-                    <img src="" alt="">
-                    <h1 class="pic-title"></h1>
+                    <img src="img/photo3.jpg" alt="">
+                    <h1 class="pic-title">Grand Modus</h1>
                     <p class="legend"></p>
                 </div>
                 <div class="photo4">
-                    <img src="" alt="">
-                    <h1 class="pic-title"></h1>
+                    <img src="img/photo4.jpg" alt="">
+                    <h1 class="pic-title">Modus</h1>
                     <p class="legend"></p>
                 </div>
             </div>
         </div>
         <div class="contact">
             <div>
-                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC4QrLa4lnqpuIkUx8ipC2ZWb_vrhvAO3M
-                      &q=Paris" allowfullscreen>
-                  </iframe>
+                <iframe class="mapsframe" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC4QrLa4lnqpuIkUx8ipC2ZWb_vrhvAO3M&q=Calais" allowfullscreen></iframe>
             </div>
             <div>
                 <form>
